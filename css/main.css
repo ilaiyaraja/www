@@ -1,0 +1,292 @@
+@import url("styles.css");
+@import url("dashboard.css");  
+
+/****************************
+ * Common to entire website *
+ ****************************/
+
+ html{
+ 	overflow-x:hidden;
+ }
+ 
+ body{
+ 	margin:0px;
+ 	font-family:Verdana;
+ 	font-size:13px;
+	color:#2a2a2a;
+	overflow-x:hidden;
+ }
+ 
+ img{
+ 	border:0px solid #ddd;
+ 	outline:none;
+ }
+ 
+ a{ 
+ 	outline:none !important;
+ 	text-decoration:none !important;
+ }
+ 
+ li{
+	background-color:#7fb539;
+	list-style-type: none;
+	margin:1px;
+ }
+ 
+ hr{
+ 	border-color:#c5dba7;
+	border-width:1px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:0px;
+	margin-right:0px;
+ }
+ 
+h2{
+	font-family: Verdana;
+	color:#db540a;
+	font-size:1em;
+	font-weight:bold;
+ }
+ h4{
+ 	font-family: Verdana;
+ 	font-size:16px;
+ 	font-weight:normal;
+ }
+ 
+ p{
+ 	font-size:13px;
+ 	color:#2a2a2a;
+ 	line-height:22px;
+ 	letter-spacing:0px; 
+ 	padding-right:0px;
+ 	padding-top:0px;
+ 	display:inline-block;
+ }
+ .pad-top{
+ 	padding-top:10px;
+ }
+ 
+ .pad-bottom{
+ 	padding-bottom:10px;
+ }
+ 
+ .pad-vertical{
+ 	padding:0px;
+ 	padding-top:10px;
+ 	padding-bottom:10px; 
+ }
+ 
+ .pad-left{
+ 	padding-left:10px;
+ }
+ .pad-horizontal{
+ 	padding:0 10 0 10px;
+ }
+ 
+ .pad-all{
+ 	padding:10px;
+ }
+ .font-white{
+ 	color:#fff;
+ }
+ 
+ .font-size14{
+    font-size:14px;
+ }
+ 
+ .font-bold{
+ 	font-weight:bold;
+ }
+ 
+ .container{
+	width:1000px auto;
+	max-width:1000px;
+ }
+ 
+ .container-full{
+	width:100%;
+	padding:0;
+	margin:0;
+	height:40px auto;
+	background-color:#7fb539;
+ }
+ 
+/*******************************
+ * Styles related to templates *
+ *******************************/
+ 
+ .lhsx{
+	border:0px solid #dddddd;
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+}
+
+.rhsx{
+	border:0px solid #dddddd;
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+}
+
+#footer-menu{
+	margin:0px;
+}
+.navbar{
+	background:#fff;
+	-webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
+/*****************
+ * Media Queries *
+ *****************/
+ @media screen and (min-width: 768px) {
+ 	.lhsx{
+		border:0px solid #dddddd;
+		padding-right:20px;
+	}
+ 	li, #footer li{
+		background-color:#fff;
+	}
+ 	.nav{
+ 		padding-top:35px;
+ 		font-size:10px;
+ 	}
+ 
+ 	ul.nav a{ 
+ 		color: #498a39 !important;
+ 	}
+ 
+ 	ul.nav a:hover, #footer li a:hover, #footer li:hover{
+ 	   	color: #000 !important;
+ 	   	background: #fff !important;
+ 	}
+ 
+ 	ul.nav li.active a, #footer li.active a{
+ 		color: #000 !important;
+ 		background:#fff !important;
+ 		cursor:default;
+ 	}
+ 	   
+    #footer li, #footer li a {
+    	border:0px solid #dddddd;
+    	padding:0px;
+    	margin:0px;
+        color:#498a39;
+        font-size:12px;
+        font-weight:normal;
+        display:inline-block !important;
+    }
+        #dashboard-footer li, #dashboard-footer li a {
+    	border:0px solid #dddddd;
+    	padding:0px;
+    	margin:0px;
+        color:#498a39;
+        font-size:12px;
+        font-weight:normal;
+        display:inline-block !important;
+    }
+        
+ 	.hidden-inline-xs {
+		display: inline !important;
+	}
+
+	select{
+		border:1px solid #b0bca1 !important;
+		height:30px !important;
+		font-family:verdana !important;
+		font-size:12px !important;
+		color:#2c2c2c !important;
+	}
+
+   /****************************
+	* Basic salary form styles *
+	****************************/
+		#basic-search-form-body-inner{
+			margin:10px;
+		}
+		#basic-search-form, #salary-form, #subscribe-alerts-form, #jobsearch-form{
+ 			margin:0px;
+ 			padding:0px;
+ 			border:0px solid #dddddd;
+		}
+		#basic-search-form-body-inner, #salary-form-body-inner,
+ 		#subscribe-alerts-form-body-inner, #jobsearch-form-body-inner{
+			background:#d1dcc4;
+ 			border:1px solid #b0bca1;
+		}
+
+		#salary-form-body-inner,#subscribe-alerts-form-body-inner{
+		  margin:20px;
+		} 
+
+		.form-elem-padding{
+			padding:0px;
+		}
+
+		h2{
+			font-size:1.5em;
+		}
+		#salary-form .btn,#basic-search-form .btn, #skip .btn,
+		 #feedback-form .btn, #subscribe-alerts-form .btn, #jobsearch-form .btn{
+			border:1px solid #075002;
+			background:#075002;
+		}
+
+		#salary-form .btn:hover, #basic-search-form .btn:hover, #skip .btn:hover,
+		 #feedback-form .btn:hover, #subscribe-alerts-form .btn:hover,
+ 		 #jobsearch-form .btn:hover{
+			border:1px solid #4b8206;
+			background:#4b8206;
+		}		
+				
+		#jobsearch-form label{
+			font-weight:bold !important;
+			font-size:11px !important;
+		}
+
+		#jobsearch-form select{
+			padding:2px !important;
+			height:22px !important;
+			font-size:11px !important;
+		}
+
+		#jobsearch-form .btn{
+			height:25px;
+			padding-top:3px;
+		}
+		.dashboard-nav .nav{
+ 		padding-top:30px;
+ 		font-size:15px;
+ 		
+ 		padding-right:0px !important;
+ 		margin-right:0px !important;
+ 	
+ 	}
+ }
+  
+ @media screen and (min-width: 992px) {
+ 	.nav{
+ 		padding-top:55px;
+ 		font-size:14px;
+ 	}
+ 	
+ }
+ 
+ @media screen and (min-width: 1200px) {
+ 	.nav{
+ 	
+ 		padding-top:60px;
+ 		font-size:15px;
+ 	}
+ 	
+ 
+ 	.nav li{
+ 			padding:0px;
+ 			margin:0px;
+ 	}
+ }
+ 

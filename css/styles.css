@@ -1,0 +1,217 @@
+/****************************
+ * Styles related to banner *
+ ****************************/
+#banner{    
+    margin-top:20px;
+	padding:0px;
+	position:relative;
+}
+
+#contentblock{
+	position:absolute;
+	top:0px;
+}
+#bannerlogoblock{
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background-color: rgba( 95, 133, 166 ,0.6);
+	padding:8px 0px 8px 0px;
+}
+
+#bannerlogoblock .col-xs-3{
+	padding:5px !important;
+}
+#bannertext{
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.111;
+  text-align: center;
+  text-shadow: 1px 0.866px 1px rgb( 0, 0, 0 );
+  padding-top:20px;
+}
+
+#innerblock{
+	padding-right:30px;
+}
+
+
+
+/*****************************
+ * Styles related to contact *
+ *****************************/
+#getintouchheader{
+    background-color:#598c36;
+	margin-top:0px;
+	padding:0px;	
+	height:80px;
+	line-height:80px;
+}
+
+#getintouch{
+	background-image:url('../img/maps.png');
+}
+
+#feedback{
+	background-color:rgba(242, 242, 242, 0.82);
+}
+
+#feedback .form-group{
+	padding: 35px 0px 25px 0px;
+}
+.input-text{
+	height:50px;
+	position:relative;
+	border:0;
+	border-radius:2px;
+	margin:10px 0px 0px 0px;
+}
+
+. form-input{
+	padding:0px 0px 0px 0px;
+}
+
+textarea{	
+	position:relative;
+	border:0;
+	border-radius:2px;
+	margin: 10px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+	resize:none;
+}
+
+#address{
+	padding:30px 0px 0px 0px;
+}
+.mandatoryinput{
+	position:absolute;
+	z-index:2;
+	top:10px;
+	right:25px;
+}
+
+.mandatorytextarea{
+	position:absolute;
+	z-index:2;
+	top:20px;
+	right:25px;
+}
+
+#feedbackmessage{
+	padding:35px 0px 0px 0px;	
+}
+
+#feedback input, #feedback textarea{
+	font-size:18px;
+	font-family:aller;
+	color:rgb(44, 44, 44);
+}
+
+#locationicon{
+	display:inline;
+	margin-top:-5px;
+}
+
+#addressline{
+	display:inline;
+	font-size:18px;
+	font-family:aller;
+	color:rgb(44, 44, 44);
+	line-height:1.5;
+}
+
+#phone{
+	font-size:18px;
+	font-family:aller;
+	color:rgb(89, 140, 54);
+	line-height:1.5;
+}
+
+#sendform .btn{
+	background-color:rgb(89, 140, 54);
+	border:rgb(89, 140, 54);
+	height:40px;
+	color:#fff !important;
+	text-align:center;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:bold;
+	outline:none;
+}
+
+#sendform .btn:hover, #sendform .btn:focus{
+	background-color:rgb(109, 151, 65);
+	border:rgb(109, 151, 65);
+}
+
+.error{
+	color:#f00;
+}   
+
+.has-error input, .has-error textarea{
+	border:1px solid #ff0000 !important;
+}
+
+
+/****************************
+ * Styles related to footer *
+ ****************************/
+#footer{
+    background-color:#000;
+	margin-top:20px;
+	padding:0px 0px 0px 0px;
+}
+#footer ul>li{
+	  background-color:#000; !important;
+	  margin-top:10px;
+}
+
+#tcmfooterlogo{
+	padding:20px 0px 15px 0px;
+}
+
+.footertext{
+	font-size:14px;
+	font-family:aller;
+	color:rgba(255, 255, 255, 0.7);
+	line-height:1.286;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+
+#footernav li, #footernav ul, #footernav li a{
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	outline:none !important;
+	color:rgba(255, 255, 255, 0.7) !important;
+	list-style-type: none;
+	background:rgba( 0, 0, 0, 0) !important;
+	text-transform:capitalize !important;
+	font-family:OpenSans;
+	font-weight:normal;
+	font-size:14px;
+	line-height:2 !important;
+}
+.sociallogos{
+		display:inline-block;
+		padding:0px 8px 0px 8px;
+}
+
+#footernav li a:hover, #footernav li.active a{
+	color:rgba(255, 255, 255, 1) !important;
+}
+#footernavheading{
+	padding:0px;
+	margin:0px;
+	outline:none !important;
+	color:#fff !important;
+	background:rgba( 0, 0, 0, 0) !important;
+	text-transform:capitalize !important;
+	font-size:14px;
+	font-family:OpenSans;
+	font-weight:bold;
+	padding:0px 0px 20px 0px;	
+	line-height:2 !important;
+}
